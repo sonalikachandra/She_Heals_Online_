@@ -141,10 +141,10 @@ footer{
 <section class="Introduction">
     <ul class="container">
     <img src="logo.png" class="logo">
-      <li class="items"><a href="introPage.php"> Home</a></li>
+      <li class="items"><a href="../introPage.php"> Home</a></li>
       <li class="items"><a href="forum\forum"> Forum </a></li>
-      <li class="items"><a href="doctor2.html"> Doctors </a> </li>
-      <li link="About-us" class="items"><a href="#"> About Us </a> </li>
+      <li class="items"><a href="../doctor2.html"> Doctors </a> </li>
+      <li link="About-us" class="items"><a href="../introPage.phps"> About Us </a> </li>
     </ul>
   </section>
   <!-- <div class="container"> -->

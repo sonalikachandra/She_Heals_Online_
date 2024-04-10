@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prociono&family=Protest+Revolution&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 10px;
+    /*the margin top pushes the logo down by 10 pixels*/
+}
+
+.container { 
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    font-size: 20px;
+    width: 100vw;
+    height: 8vh;
+    padding: 10px 20px; /* Adding padding to the container */
+     margin: 0; 
+
+}
+
+.items {
+    padding-right: 30px;
+    padding-top: 5px;
+}
+
+.items a {
+    color: azure;
+    text-decoration: none;
+
+}
+
+.items a:hover {
+    font-weight: 900;
+    color: white;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7); /* Adjust the shadow color and intensity as needed */
+}
+
+.Intro-img {
+    width: 100%;
+    height: 1000px;
+}
+
+.Intro-front {
+  font-family: "Prociono", serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative; /* Ensure relative positioning for the parent container */
+}
+
+.Intro-heading {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display:flex;
+  align-items:self-start ;
+  position:absolute;
+  margin-left: 0px;
+  top:35%; /* Position the text vertically centered */
+  left: 10%; /* Adjust the left position as needed */
+  transform: translateY(-50%); /* Center the text vertically */
+  color: rgb(37, 27, 1); /* Text color */
+  font-size: 50px; /* Font size */
+  text-align: center; /* Center-align the text */
+}
+
+.code-img{
+    width:30%;
+    align-items: center;
+    margin-right: 30px;
+    border-radius:50%;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align:left;
+    line-height:1.5;
+}
+
+.text-style {
+  margin: 0 10px;
+  color: black;
+  font-size: 24px; /* Adjust font size as needed */
+  font-family: cursive; /* Use cursive font */
+  letter-spacing: 2px; /* Add some letter spacing */
+}
+
+
+/* trials */
+#signup {
+  padding: 100px 0px;
+  background-color: white; /* Change background color to white */
+}
+#signup .slug {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#signup .title {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#signup .content {
+  max-width: 640px;
+  margin: 0 auto 50px;
+  text-align: center;
+  line-height: 1.5;
+}
+#signup .button-wrapper {
+  text-align: center;
+}
+#signup .button-wrapper button {
+  outline: none;
+  padding: 30px 50px;
+  margin: 0px 20px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  background-color: white;
+  color: #d3858b;
+  border: 2px solid #d3858b;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  transition: all ease-in-out 300ms;
+}
+#signup .button-wrapper button:hover {
+  background-color: #d3858b;
+  color: white;
+}
+
+
+/* About Us  */
+
+.text-blk {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  line-height: 25px;
+  color: #ffd3d8;
+}
+
+.responsive-container-block {
+  min-height: 75px;
+  height: fit-content;
+  width: 100%;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  justify-content: flex-start;
+}
+
+.responsive-container-block.bigContainer {
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  /* background-image: url("https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb29.png"); */
+  background-color:#ffd3d8;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: cover;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  /* background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat; */
+}
+
+.responsive-container-block.Container {
+  max-width: 800px;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-top: 150px;
+  margin-right: auto;
+  margin-bottom: 150px;
+  margin-left: auto;
+  background-color: black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.text-blk.heading {
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: 800;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 30px;
+  margin-left: 0px;
+}
+
+.text-blk.subHeading {
+  text-align: center;
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 60px;
+  margin-left: 0px;
+}
+
+/* .socialIcon {
+  width: 33px;
+  height: 33px;
+} */
+
+/* .social-icons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+} */
+
+/* .social-icon {
+  margin: 0 50px 0 50px;
+} */
+
+/* .social-icon:hover {
+  cursor: pointer;
+} */
+
+@media (max-width: 768px) {
+  .text-blk.heading {
+    font-size: 55px;
+    line-height: 65px;
+  }
+
+  .text-blk.subHeading {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  /* .socialIcon {
+    width: 20px;
+    height: 20px;
+  } */
+
+  .text-blk.subHeading {
+    line-height: 27px;
+  }
+
+  .text-blk.heading {
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+
+  /* .social-icon {
+    margin: 0 25px 0 25px;
+  } */
+}
+
+@media (max-width: 500px) {
+  .responsive-container-block.bigContainer {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+
+  .text-blk.heading {
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+
+  .text-blk.subHeading {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+  }
+
+  /* .social-icons-container {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  } */
+
+  .text-blk.subHeading {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .text-blk.heading {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  /* .social-icon {
+    margin: 0 20px 0 20px;
+  } */
+}
+
+/* footer trials */
+footer{
+  background-color: #111;
+}
+.footerContainer{
+  width: 100%;
+  padding: 70px 30px 20px ;
+}
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a{
+  text-decoration: none;
+  padding:  10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialIcons a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+  background-color: #111;
+  transition: 0.5s;
+}
+.socialIcons a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+.footerNav{
+  margin: 30px 0;
+}
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.footerNav ul li a{
+  color:white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+  opacity: 1;
+}
+.footerBottom{
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p{
+  color: white;
+}
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+@media (max-width: 700px){
+  .footerNav ul{
+      flex-direction: column;
+  } 
+  .footerNav ul li{
+      width:100%;
+      text-align: center;
+      margin: 10px;
+  }
+  .socialIcons a{
+      padding: 8px;
+      margin: 4px;
+  }
+}

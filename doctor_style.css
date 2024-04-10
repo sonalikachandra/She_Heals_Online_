@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Poppins&family=Roboto&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+
+
+/*TRIAL*/
+
+#hero{
+    min-height: 600px;
+    background-color: #f5f7fb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0px auto;
+    padding: 30px 0px;
+}
+.black {
+    background-color: #2d2d32;
+}
+.div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+/* .logo{
+    color:#122853;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+.logo span{
+    background-color: #014dd5;
+    color: #ffffff;
+    padding: 0px 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-right: 5px;
+} */
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 40px;
+}
+.menu li a{
+    margin: 0px 20px;
+    color: #303030;
+    font-weight: 500;
+    transition: all ease 0.3s;
+}
+.menu li a:hover{
+    color: #014dd5;
+}
+.nav-appointment-btn{
+    height: 45px;
+    padding: 0px 20px;
+    border-radius:4px;
+    background-color: #014dd5;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+.hero-content{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+    margin-top: auto;
+}
+.hero-img{
+    display: flex;
+}
+.hero-img img{
+    width: 100%;
+    height: 100%;
+    max-height: 450px;
+    object-fit: contain;
+    object-position: center bottom;
+}
+.hero-text{
+   display: flex;
+   flex-direction: column;
+   margin-top: 30px; 
+}
+.hero-text h1{
+    font-size: 3.2rem;
+    color: #122853;
+    line-height: 3.6rem;
+}
+.hero-text p{
+    color: #535353;
+    margin: 15px 0px;
+    max-width: 500px;
+    letter-spacing: 0.3px;
+    line-height: 1.8rem;
+}
+.hero-text-btns{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.hero-text-btns a{
+    height: 45px;
+    padding: 0px 15px;
+    background-color: #122853;
+    color: #ffffff;
+    border-radius: 4px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+.hero-text-btns a i{
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #014dd5;
+    margin-right: 8px;
+    color: #ffffff;
+    font-size: 0.5rem;
+    padding-bottom: 1px;
+}
+
+/****************/
+.first-fold {
+    padding: 32px 16px 0;
+    color: #2d2d32;
+    position: relative;
+}
+.logo {
+    width: 100;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 10px;
+    /*the margin top pushes the logo down by 10 pixels*/
+}
+.container{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color:black;
+    font-size: 20px;
+    width: 100vw;
+    height: 8vh;
+}
+.items {
+    padding-right: 30px;
+    padding-top: 5px;
+}
+
+.items a {
+    color: azure;
+    text-decoration: none;
+
+}
+
+.items a:hover {
+    font-weight: 900;
+    color: white;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7); 
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-family: Poppins;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 2%;
+}
+
+.club {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 90rem;
+}
+
+.clubsBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.clubcard {
+  width: calc(33% - 0.2rem);
+  /*     margin: 30px 40px; */
+  cursor: pointer;
+  padding: 50px 40px;
+}
+
+.clubinfo {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+}
+
+.clubfront,
+.clubback {
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  background-position: center;
+  -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  -o-transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1),
+    -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  text-align: center;
+  /*     min-height: 300px; */
+  height: 360px;
+  color: #fff;
+  /*     font-size: 1rem; */
+}
+
+.clubback {
+  background: #cedce7;
+  background: -webkit-linear-gradient(45deg, #f8e9e6 0%, #8ddad5 100%);
+  background: -o-linear-gradient(45deg, #f8e9e6 0%, #8ddad5 100%);
+  background: linear-gradient(45deg, #f8e9e6 0%, #8ddad5 100%);
+}
+
+.clubfront:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  content: "";
+  display: block;
+  opacity: 0.01;
+  background-color: #000;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+.clubinfo:hover .clubfront,
+.clubinfo:hover .clubback {
+  -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  -o-transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1),
+    -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.clubback {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.clubinner {
+  -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
+  transform: translateY(-50%) translateZ(60px) scale(0.94);
+  top: 50%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: 1px solid transparent;
+  -webkit-perspective: inherit;
+  perspective: inherit;
+  z-index: 2;
+  text-align: justify;
+}
+
+.clubinfo .clubback {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.clubinfo .clubfront {
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.clubinfo:hover .clubback {
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.clubinfo:hover .clubfront {
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.clubinner p {
+  font-size: 1rem;
+  font-family: 'Open Sans';
+  margin-bottom: 0px;
+  position: relative;
+  padding: 0px 30px;
+}
+
+.clubfront .clubinner p:after {
+  content: "";
+  width: 4rem;
+  height: 2px;
+  position: absolute;
+  background: #fafbfc;
+  display: block;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: -0.75rem;
+}
+
+.clubinner h2 {
+  color: black;
+  font-size: 30px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  margin: 5px 0px;
+  text-align: center;
+}
+
+.c-s-logo {
+  text-align: center;
+}
+
+.fab {
+  color: black;
+  font-size: 30px;
+  padding: 5px 20px;
+}
+
+.fab:hover {
+  transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 1200px) {
+  .clubcard {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .clubcard {
+    width: calc(50% - 1rem);
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 3rem;
+    margin-top: 15%;
+  }
+
+  .clubcard {
+    width: calc(70% - -1rem);
+
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 22%;
+  }
+
+  .clubcard {
+    width: calc(50% - -10rem);
+    margin: 0 0 2rem 0;
+    padding: 5px 10px;
+  }
+
+  .clubinner p {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  h1 {
+    font-size: 2rem;
+    margin-top: 24%;
+  }
+
+  .clubcard {
+    width: 100%;
+    margin: 0 0 0rem 0;
+    padding: 5px 10px;
+  }
+
+  .clubfront {
+    height: 340px;
+  }
+
+  .clubback {
+    height: 340px;
+  }
+}
+
+/* Custom Scrollbar */
+
+.scrollable {
+  overflow-y: auto;
+  max-height: 250px;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+/* footer trials */
+footer{
+  background-color: #111;
+}
+.footerContainer{
+  width: 100%;
+  padding: 70px 30px 20px ;
+}
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a{
+  text-decoration: none;
+  padding:  10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialIcons a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+  background-color: #111;
+  transition: 0.5s;
+}
+.socialIcons a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+.footerNav{
+  margin: 30px 0;
+}
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.footerNav ul li a{
+  color:white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+  opacity: 1;
+}
+.footerBottom{
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p{
+  color: white;
+}
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+@media (max-width: 700px){
+  .footerNav ul{
+      flex-direction: column;
+  } 
+  .footerNav ul li{
+      width:100%;
+      text-align: center;
+      margin: 10px;
+  }
+  .socialIcons a{
+      padding: 8px;
+      margin: 4px;
+  }
+}
